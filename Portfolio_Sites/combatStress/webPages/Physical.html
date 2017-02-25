@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="combatstress.co, college stress, fighting college stress, coping with stress, stress, college, 
+              ">
+        <title>
+            Stress Signs and Statistics
+        </title>
+        <link href="../Css/main.css" type="text/css" rel="stylesheet">
+        <link href="../Css/slider.css" type="text/css" rel="stylesheet">
+        <link href="../Css/physical.css" type="text/css" rel="stylesheet">
+        <script src="../javascript/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="../javascript/mobile.js"></script>
+        <script src="../highcharts.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                setTimeout(function () {
+                    $('#slider').css('left', '-140px');
+                }, 3000);
+                $('#slider').height($(document).height());
+            });
+        </script>
+        <script type="text/javascript">
+
+            $(function () {
+                $('#container1').highcharts({
+                    chart: {
+                        type: 'column'
+                    },
+                    title: {
+                        text: 'Student Stress Signs at John Jay'
+                    },
+                    subtitle: {
+                        text: ''
+                    },
+                    xAxis: {
+                        categories: [
+                            'Hostile',
+                            'Panicked',
+                            'Irritable',
+                            'Anxious',
+                            'Focused',
+                            'Emotional',
+                        ]
+                    },
+                    yAxis: {
+                        min: 0,
+                        title: {
+                            text: 'Number of Students'
+                        }
+                    },
+                    tooltip: {
+                        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                                '<td style="padding:0"><b>{point.y:.1f} Students</b></td></tr>',
+                        footerFormat: '</table>',
+                        shared: true,
+                        useHTML: true
+                    },
+                    plotOptions: {
+                        column: {
+                            pointPadding: 0.2,
+                            borderWidth: 0
+                        }
+                    },
+                    series: [{
+                            name: 'Freshmen',
+                            data: [9, 10, 23, 16, 4, 10]
+
+                        }, {
+                            name: 'Sophmore',
+                            data: [4, 12, 10, 23, 7, 4]
+
+                        }, {
+                            name: 'Junior',
+                            data: [4, 0, 4, 7, 7, 2]
+
+                        }, {
+                            name: 'Senior',
+                            data: [4, 10, 6, 10, 2, 1]
+
+                        }]
+                });
+            });
+
+            $(function () {
+                $('#container2').highcharts({
+                    chart: {
+                        type: 'column'
+                    },
+                    title: {
+                        text: 'Student Stress Signs at John Jay (Cont)'
+                    },
+                    subtitle: {
+                        text: ''
+                    },
+                    xAxis: {
+                        categories: [
+                            'Tired',
+                            'Headache',
+                            'Insomnia',
+                            'Loss of Appetite',
+                            'Cravings',
+                            'Nausea'
+                        ]
+                    },
+                    yAxis: {
+                        min: 0,
+                        title: {
+                            text: 'Number of Students'
+                        }
+                    },
+                    tooltip: {
+                        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                                '<td style="padding:0"><b>{point.y:.1f} students</b></td></tr>',
+                        footerFormat: '</table>',
+                        shared: true,
+                        useHTML: true
+                    },
+                    plotOptions: {
+                        column: {
+                            pointPadding: 0.2,
+                            borderWidth: 0
+                        }
+                    },
+                    series: [{
+                            name: 'Freshmen',
+                            data: [19, 10, 4, 4, 0, 0]
+
+                        }, {
+                            name: 'Sophmore',
+                            data: [12, 1, 4, 6, 0, 0]
+
+                        }, {
+                            name: 'Junior',
+                            data: [7, 10, 0, 0, 2, 0]
+
+                        }, {
+                            name: 'Senior',
+                            data: [9, 10, 1, 0, 4, 3]
+                        }]
+                });
+            });
+
+
+        </script>
+    </head>
+    <body>
+
+        <div id="container"><header>
+                <img src="../Images/banner.jpg" width="1024" height="150"
+                     alt="banner">
+            </header>
+            <div id="slider">
+                <div id="arrow">
+                    &lt; Navigation Menu
+                </div>
+                <ul>
+                    <li>
+                        <a href="../index.html" class="navbar">Home</a>
+                    </li>
+                    <li>
+                        <a href="whatIsStress.html" class=
+                           "navbar">What is Stress?</a>
+                    </li>
+                    <li>
+                        <a href="Physical.html" class=
+                           "navbar">Stress Signs and Statistics</a>
+                    </li>
+
+                    <li>
+                        <a href='coping.html' class="navbar">Coping</a>
+                    </li>
+                </ul>
+            </div>
+            <section>
+
+                <div id="mental">
+                    <h1> Mind's Reaction
+                    </h1>
+                    <p>Cognitive Symptoms of stress is the way we mentally
+                        process our surroundings.</p>
+                    <ul >
+
+
+                        <li>difficult concentrating
+                        </li>
+                        <li>Easily distracted by worries
+                        </li>
+                        <li>tendency to be negative, self-defeating, or
+                            perfectionist thinking
+                        </li>
+                        <li>Anxious
+                        </li>
+                        <li>bad judgment
+                        </li>
+                        <li>difficulty remembering
+                        </li>
+                        <li>Moodiness
+                        </li>
+                        <li>Agitation
+                        </li>
+                        <li>Feeling overwhelmed
+                        </li>
+                        <li>Sense of loneliness and isolation
+                        </li>
+                        <li>Depression
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="physical">
+                    <h1>
+                        Body's Reaction!
+                    </h1>
+                    <p>Behavioral symptoms of stress are actions performed
+                        that are observed by other people.Physiological symptoms of stress are the response
+                        of the body to stressful situations.</p>
+                    <ul >
+
+
+                        <li>shallow, rapid breathing
+                        </li>
+                        <li>heart racing
+                        </li>
+                        <li>increased perspiration
+                        </li>
+                        <li>nausea or stomachache
+                        </li>
+                        <li>increased muscle tension
+                        </li>
+                        <li>headache, backache
+                        </li>
+                        <li>tightness in chest
+                        </li>
+                        <li>dry mouth
+                        </li>
+                        <li>increased urge to urinate
+                        </li>
+                        <li>cold hands or feet
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div id="container1" style="width:100%; height:400px;">
+
+                </div>
+                <div id="container2" style="width:100%; height:400px;">
+
+                </div>
+
+            </section>
+
+        </div>
+    </body>
+</html>

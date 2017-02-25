@@ -1,0 +1,80 @@
+/*CSS for slider navigation*/
+#slider {
+    width:162px;
+    background-color:blue;
+    position:fixed;
+    z-index:10000;
+    background-color:#99cc00;
+    border-right:solid 2px #ee4e1d;
+    text-shadow:2px 1px 2px #ee4e1d;
+    transition:all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        -ms-transition: all 0.25s ease-out;
+        -o-transition: all 0.25s ease-out;
+        -webkit-transition: all 0.25s ease-out;
+    
+}
+
+#slider {
+	left: 0px;
+    top:0px;
+}
+
+#slider:hover, #slider:focus {
+	left: 0px !important; 
+}
+#arrow {
+    width: 16px;
+	height: 25px;
+	display: block;
+    position:relative;
+    top:30px;
+    float:right;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:20px;
+    transition:all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        -ms-transition: all 0.25s ease-out;
+        -o-transition: all 0.25s ease-out;
+        -webkit-transition: all 0.25s ease-out;
+}
+
+#slider:hover #arrow /*arrow animation*/{
+        transform:rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+        -webkit-transform: rotate(-180deg);
+}
+#slider ul {
+    list-style-type:none;
+    float:left;
+    position:relative;
+    top:75px;
+}
+#slider ul li {
+    width:80px;
+    border-bottom:solid 2px red;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+#slider ul li a.navbar {
+    clear:both;
+    display:block;
+    text-align:center;
+    font-family: Georgia, Serif;
+    font-size:1em;
+    color:white;
+    text-shadow:2px 2px 2px black;
+    transition:color 0.25s linear 0;
+        -moz-transition: color 0.25s linear 0;/*firefox*/
+        -ms-transition:color 0.25s linear 0;/*internet Explorer*/
+        -o-transition: color 0.25s linear 0; /*Opera*/
+        -webkit-transition: color 0.25s linear 0;/*Safari*/
+}
+#slider ul li a.navbar:hover {
+    color:#ee4e1d;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-size:1em;
+    text-shadow:2px 2px 2px black;
+}

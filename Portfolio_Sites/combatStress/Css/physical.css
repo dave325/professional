@@ -1,0 +1,13 @@
+h1 {
+text-align:center;
+}
+#physical {
+width:48%;
+border-right:dashed 1px black;
+padding-left:15px;
+}
+#mental{
+width:48%;
+float:right;
+}
+

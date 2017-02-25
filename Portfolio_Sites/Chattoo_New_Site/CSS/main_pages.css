@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#ECE1CD;
+}
+body #container {
+	background-color:#ECE1CD;
+	width:64em;
+	margin:0 auto; 
+}
+body #container #header {
+	width:64em;
+	padding:0.625em 0;
+}
+body #container #header #banner {
+	width:60em;
+	margin-top:-50x;
+}
+body #container #header #navigation {
+	width:63.5em;
+	height:3em;
+	clear:both;
+	margin:.5em auto;
+}
+body #container #sidebar {
+	width:11em;
+	float: right;
+	padding:.5em 0em;
+	margin:.5em 1em; 
+}
+body #container #content {
+	width:45em;
+	margin-top: 0.5em;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+	padding-top: 0.5em;
+	padding-right: 1em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	font-size: 1em;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #000098;
+	text-align: left;
+}
+body #container #footer {
+	width:64em;
+	height:6em;
+	clear:both;
+	text-align: right;
+	background-image: url(../Images/footer.jpg);
+	
+}
+body #container #sidebar .quote {
+	margin:0 2em 0 -3.7em;
+}
+#container #footer p {
+	margin-bottom: 1em;
+	font-size: 1em;
+	color: #000;
+	font-weight: bold;
+	margin:0 10px 0 0px; 
+	}
+#container #disclaimer {
+	font-family: Verdana, Geneva, sans-serif;
+	padding-top: 1em;
+	text-align:justify;
+	font-size:.5em;
+	border: thick solid #DFCAAF;
+}
+#container #footer p a:link {
+	color:#FFF;
+}
+#container #footer p a:visited {
+	color:#F60;
+}
+#container #footer p a:hover {
+	color:#F60;
+}
+#container #footer p a:active {
+	color:#FF3;
+}
+a:visited {
+	color:#F00;
+}
+a:link {
+	color:#000;
+}
+a:hover {
+	color:#2AABE4
+}
+a:active {
+	color: #666;
+}
+.pic {
+	float:right;
+	margin: 5 5 5 10px;
+	border: thick solid #DFCAAF;
+}
+#container #content h2 {
+	border: thick solid #DFCAAF;
+	text-align: center;
+	width: 362px;
+}
+.bottom {
+	border: thick solid #DFCAAF;
+	text-align: center;
+}
+.content {
+	border: thick solid #DFCAAF;
+	margin-top: 2em;
+	margin-right: 4em;
+	margin-bottom: 0px;
+	margin-left: 0em;
+	padding: 0 25px;
+}
+#container #content ul {
+	border: thick solid #DFCAAF;
+}
+#container #content table {
+	border: thick solid #DFCAAF;
+}

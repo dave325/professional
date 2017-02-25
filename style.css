@@ -1,0 +1,670 @@
+/*
+ * Theme Name: Professional Wordpress 
+ * Theme URI: daviddataram.com
+ * Author: David Dataram
+ * Author URI: daviddataram.com
+ * Description: A custom stylesheet made specific for me
+ * Version: 1.0
+ * 
+ */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd,
+	q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr,
+	th, td, article, aside, canvas, details, figcaption, figure, footer,
+	header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+	font-family: 'Raleway', sans-serif;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input, select {
+	vertical-align: middle;
+}
+
+::selection {
+	background: #0000b3;
+	color: #fff;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background: #0000b3;
+	color: #fff;
+	text-shadow: none;
+}
+/*--------------------------------------------WordPress Core-------------------------------------------------------------- */
+.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter, div.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.wp-caption {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	max-width: 96%; /* Image does not overflow the content area */
+	padding: 5px 3px 10px;
+	text-align: center;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+	width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+/*--------------------------------------------Main Stylesheet-------------------------------------------------------------- */
+body {
+	color: #FFF !important;
+}
+
+header {
+	background-color: #fff;
+	border: 2px solid #0000b3;
+	height: 60px;
+	position: fixed;
+	left: 50%;
+	margin-left: -47%;
+	height: 60px;
+	width: 95%;
+	z-index: 99999;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Titillium Web', verdana, sans-serif;
+}
+
+#logo {
+	height: 130px;
+	position: absolute;
+	width: 250px;
+}
+
+#mobile-nav-icon {
+	display: none;
+}
+
+header nav {
+	float: right;
+	font-size: 1em;
+	margin: 20px 20px 20px 0px;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav a {
+	color: #000;
+	display: inline-block;
+	margin-right: 40px;
+	text-decoration: none;
+	-moz-transition: color 0.5s;
+}
+
+header nav a:hover {
+	color: #0000b3;
+	text-decoration: underline;
+}
+
+header .active-link {
+	border-bottom: 1px solid #000;
+	color: #00F;
+	padding-top: 5px;
+}
+
+section {
+	position: relative;
+}
+
+.home-panel {
+	min-height: 400px;
+	padding-top: 60px;
+	width: 100%;
+}
+
+.content {
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#home img {
+	display: block;
+	height: 500px;
+	margin: 30px auto 0px auto;
+	width: 60%;
+}
+
+.back-to-top {
+	background-image: url('images/arrow.png');
+	background-size: 30px 30px;
+	background-position: right;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	position: absolute;
+	bottom: 10%;
+	right: 2%;
+}
+
+.back-to-top a {
+	color: #FFF;
+}
+
+#company-name-container {
+	float: left;
+	text-decoration: underline;
+	width:200px;
+	height:60px;
+	position:absolute;
+}
+
+#logo img{
+	width:100%;
+	height:100%;
+}
+#company-name-container img{
+	width:100%;
+	height:100%;
+}
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 48px;
+}
+
+h4 {
+	font-size: 24px;
+	text-align: center;
+}
+
+#portfolio {
+	padding-top: 60px;
+	padding-bottom: 5%;
+	width: 100%;
+}
+
+#portfolio-container>.back-to-top {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#services {
+	background-color: #e6e6e6;
+	padding-bottom: 2%;
+}
+
+#service-container, #blog-container {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 2%;
+	min-height: auto;
+	border: 2px solid #009;
+}
+
+.service-list {
+	color: #000;
+	display: none;
+	width: 40%;
+	margin: 3% 0px 2% 3%;
+	text-align: center;
+}
+
+.service-list:first-child {
+	float: right !important;
+}
+
+.first-service-description {
+	margin-bottom: 8% !important;
+}
+
+#services h2, #portfolio h2, #contact h2, #blog h2 {
+	color: #0000b3;
+	font-weight: 200;
+	padding-top: 2%;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#services h2 {
+	font-size: 40px;
+}
+
+#portfolio h2 {
+	color: #FFF;
+	font-weight: 700;
+	margin-bottom:3%;
+}
+
+#services p {
+	margin: 2% auto 0px auto;
+	width: 80%;
+}
+
+.serviceTitle {
+	color: #0000b3;
+	font-weight: bold;
+	font-size: 1.6em;
+	text-decoration: underline;
+}
+
+.service-list p {
+	text-align: center;
+}
+
+#blog{
+	background-color:#e6e6e6;
+	padding-bottom:5%;
+}
+#blog-container {
+	margin-bottom:2%;
+}
+/******* Code for blog Post ****/
+.dav-blog-post{
+	background-color:#e6e6e6;
+	min-height:auto !important;
+	padding-bottom:4%;
+}
+.dav-blog-post .my-blog-content{
+	margin:5% 0px;
+}
+.blog-container{
+	margin:0px 0px 2% 3%;
+	color:#000;
+}
+.blog-container h2{
+	color:#0000b3;
+	margin-bottom:2%;
+}
+.my-blog-content{
+	width:60%;
+	word-wrap:initial;
+}
+ .my-blog-content code {
+	width:100%;
+	color:#0000b3;
+}
+/******** Comment Styles ********/
+.comment{
+	margin:3%;
+	color:black;
+}
+.comment-list{
+	list-style-type:none;
+}
+
+.comments-title {
+	color:#0000b3;
+	margin-left:3%;
+}
+.comment-author {
+	margin-bottom:5px;
+	color:#0000b3;
+}
+.comment{
+	border-bottom:2px solid #0000b3;
+	padding-bottom:2%;
+}
+.reply{
+	margin-top:2%;
+}
+#respond{
+	margin:2%;
+	color:#000;
+	
+}
+.comment-form p{
+	margin-top:2%;
+}
+/********* Code for Contact Form *********/
+#contact {
+	clear: both;
+	color: #FFF;
+	margin: 0px auto;
+}
+
+#contact h2 {
+	color: #009;
+}
+/********* Code for Footer *********/
+footer {
+	background-color: #000;
+	min-height: 100px;
+	margin: 0px 0px 0px 0px;
+}
+
+footer nav {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+footer nav a {
+	color: #FFF;
+	display: block;
+	margin-bottom: 2%;
+	text-align: center;
+	width: 100%;
+}
+
+footer nav a:hover {
+	color: #4f92ff;
+}
+
+footer ul li {
+	clear: both;
+}
+
+.parallax-window-1{
+		background-color: #595959;
+	}
+.parallax-window-2 {
+	background-color:#003366;
+}
+
+/******** DESKTOPS*******/
+@media only screen and (min-width: 930px ) {
+	.service-list:first-of-type {
+		margin: 3% 3% 20px 0px;
+	}
+	#services {
+		min-height: 800px !important;
+	}
+}
+/*********** Tablets*********/
+@media only screen and (max-width:950px) {
+	#mobile-nav-icon {
+		cursor: pointer;
+		display: block;
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		color: black;
+		right: 5%;
+	}
+	#logo {
+		display:none;
+	}
+	#company-name-container{
+		display:block;
+	}
+	header nav {
+		border: 2px solid #0000b3;
+		background-color: #FFF;
+		display: none;
+		font-size: 1em;
+		margin:0px;
+		position:absolute;
+		left:5%;
+		top: 60px;
+		width: 90%;
+		z-index: 99999999;
+	}
+	#mobile-nav-icon img{
+		margin-top:15px;
+		height:30px;
+		display:block;
+	}
+	nav a {
+		color: #000;
+		display: block;
+		margin-right: 40px;
+		margin-bottom: 5%;
+		text-decoration: none;
+		text-align: center;
+		-moz-transition: color 0.5s;
+		width: 100%;
+	}
+	nav a:first-child {
+		margin-top: 5%;
+	}
+	nav a:hover {
+		color: #595959;
+	}
+	.active-link {
+		border: none;
+		color: #00F;
+		font-size: 1.2em;
+		padding-top: 5px;
+	}
+	#services {
+		width: 99%;
+	}
+	.service-list {
+		width: 95%;
+	}
+	#service-container {
+		max-height: 10000px !important;
+		padding-bottom: 10px;
+	}
+	#blog-container{
+		width:95%;
+		margin:0px auto 3% auto;
+	}
+	#commentform textarea{
+		width:90% !important;
+	}
+	#portfolio {
+		max-height: 10000px !important;
+	}
+	#portfolio img {
+		display: block;
+		position: static;
+		margin: 0px auto;
+	}
+	.portfolio-row {
+		height: 300px;
+	}
+	#contact {
+		width: 95% !important;
+	}
+	.service-list {
+		display: block;
+	}
+}
+/***** Mobile Phones ****/
+@media only screen and (max-width:600px) {
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		margin-left: -50%;
+	}
+	header nav {
+		float: none;
+	}
+	#home img {
+		height: 300px;
+		margin-top: 30%;
+		width: 80%;
+	}
+	#service-container {
+		width: 100%;
+	}
+	.service-list {
+		display: block;
+	}
+	footer nav a {
+		margin-bottom: 5%;
+	}
+	.my-blog-content{
+	width:90%;
+}
+.my-blog-content p{
+	word-wrap:break-word;
+}
+}/* 
+@media only screen and (min-width:601px) and (max-width:949px) {
+	.parallax-window-1 {
+		background-color: #00c17b;
+		background-image: url("Optimized_Images/parallax_1.jpg");
+	}
+	.parallax-window-2 {
+		background-color: #FFF;
+		background-image: url("Optimized_Images/parallax_2.jpg");
+	}
+} */

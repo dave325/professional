@@ -1,0 +1,108 @@
+section{
+	padding:10px;	
+}
+#physicalResponse {
+position:relative;
+    width:600px;
+    height:100px;
+    border:solid #000 1px;
+    margin-bottom:10px;
+    margin-right:auto;
+    margin-left:auto;
+}
+#prlabel, #psrlabel, #clabel, #blabel{
+text-align:center;
+color:#000;
+
+}
+
+#prslide{
+position:absolute;
+    width:600px;
+    height:100px;
+    background-color:#99cc00;
+    display:none;
+    z-index:2;
+}
+
+
+#psychologicalResponse {
+    position:relative;
+    width:600px;
+    height:100px;
+     border:solid #000 1px;
+     margin-bottom:10px;
+      margin-right:auto;
+    margin-left:auto;
+}
+#psrslide{
+position:absolute;
+    width:600px;
+    height:100px;
+    background-color:#99cc00;
+    display:none;
+}
+
+#Coping {
+    position:relative;
+    width:600px;
+    height:100px;
+     border:solid #000 1px;
+      margin-right:auto;
+    margin-left:auto;
+    margin-bottom:10px;
+}
+#cslide{
+position:absolute;
+    width:600px;
+    height:100px;
+    background-color:#99cc00;
+    display:none;
+}
+#behavior {
+    position:relative;
+    width:600px;
+    height:100px;
+     border:solid #000 1px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:10px;
+}
+#bslide{
+position:absolute;
+    width:600px;
+    height:100px;
+    background-color:#99cc00;
+    display:none;
+}
+
+#info, #info2 {
+    width:45%;
+    float:left;
+    margin:5px 10px;
+} 
+#info {
+padding-right:10px;
+border-right:dashed 1px black;
+}
+
+#info3 {
+    clear:both;
+}
+#info h3 {
+    text-align:center;
+}
+#info2 h3 {
+    text-align:center;
+}
+#info3 h3 {
+    text-align:center;
+}
+#info3 h4 {
+    text-align:center;
+}
+
+#squareContainer h3 {
+	text-align:center;	
+}
+

@@ -1,0 +1,56 @@
+/*Change margin of img to center on div*/
+
+#slideshow {
+	border:none;	
+}
+
+h1 {
+    margin:30px 0px;
+    position:relative;
+    left:150px;
+    color:#ee4e1d;
+}
+#pcontainer {
+    width:650px;
+    height:250px;
+    padding-bottom:5px;
+    margin-left:17px;
+    padding-left:10px;
+    padding-right:10px;
+    overflow:hidden;
+}
+#pstress, #pphysical, #pmental, #pcoping {
+        font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+        font-size:.8em;
+        color:#000;
+        font-weight:bold;
+		width:450px;
+		float:right;
+		margin-top:10px;
+}
+#pstart {
+display:block;
+margin:0px auto;
+}
+section{
+	padding-left:10px;	
+}
+section a {
+	text-align:center;
+}
+#confirmBox{
+    display: none;
+    position: relative;
+    opacity: 1 !important;
+    min-height: 200px;
+    max-width: 200px;
+    max-width: 400px;
+    max-height:400px;
+    background-color: #FFF;
+    text-align: center;
+    font-size: 2em;
+    margin:0px auto;
+    border:5px solid #ee4e1d;
+    color: #000;
+    z-index: 100;
+}

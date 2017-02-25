@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="combatstress.co, college stress, fighting college stress, coping with stress, stress, college, 
+              ">
+
+        <title>
+            Home
+        </title>
+        <link href="Css/main.css" type="text/css" rel="stylesheet"/>
+        <link href="Css/slideshow.css" type="text/css" rel="stylesheet"/>
+        <link href="Css/slider.css" type="text/css" rel="stylesheet"/>
+        <link href="Css/index.css" type="text/css" rel="stylesheet"/>
+        <script src="javascript/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="javascript/index.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                setTimeout(function () {
+                    $('#slider').css('left', '-140px');
+                }, 3000);
+                $('#slider').height($(document).height());
+                if (window.opera) {
+                    $('h1').css('font-size', '25px');
+                }
+                if ($(window).width() < 1000) {
+                    $('#container').css('opacity' , '0.6');
+                    $("#confirmBox").show();
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <div id="confirmBox">
+             <p>Using a smartphone? <a href="subsite/mobile.html">Click here to visit the mobile site.</a> </p>
+        </div>
+        <div id="container">  <header>
+                <img src="Images/banner.jpg" width="960" height="150" alt=
+                     "banner">
+            </header>
+            <div id="slider">
+                <div id="arrow">
+                    &lt; Navigation Menu
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html" class="navbar">Home</a>
+                    </li>
+                    <li>
+                        <a href="webPages/whatIsStress.html" class=
+                           "navbar">What is Stress?</a>
+                    </li>
+                    <li>
+                        <a href="webPages/Physical.html" class=
+                           "navbar">Stress Signs and Statistics</a>
+                    </li>
+
+                    <li>
+                        <a href='webPages/coping.html' class="navbar">Coping</a>
+                    </li>
+                </ul>
+            </div>
+            <section id="slideshow"> 
+
+                <div class="slideShow">
+                    <img src="optimized%20Photos/photo.jpg" width="500"
+                         height="300" alt="photo"> <img src=
+                         "optimized%20Photos/photo1.jpg" width="500" height="300"
+                         alt="photo1"> <img src="optimized%20Photos/photo2.jpg"
+                         width="500" height="300" alt="photo2"> <img src=
+                         "optimized%20Photos/photo3.jpg" width="500" height="300"
+                         alt="photo3"> <img src="optimized%20Photos/photo4.jpg"
+                         width="500" height="300" alt="photo4"> <img src=
+                         "optimized%20Photos/photo5.jpg" width="500" height="300"
+                         alt="photo5"> <img src="optimized%20Photos/photo6.jpg"
+                         width="500" height="300" alt="photo6"> <img src=
+                         "optimized%20Photos/photo7.jpg" width="500" height="300"
+                         alt="photo7"> <img src="optimized%20Photos/photo8.jpg"
+                         width="500" height="300" alt="photo8"> <img src=
+                         "optimized%20Photos/photo9.jpg" width="500" height="300"
+                         alt="photo9"> <img src="optimized%20Photos/photo10.jpg"
+                         width="500" height="300" alt="photo10">
+                </div>
+
+
+            </section>
+            <section> 
+
+                <h1>
+                    Hover over one of the signs to begin!
+                </h1>
+                <img src="Images/STRESS.jpg" width="239" height="133" id="stress"><p id="pstress">
+                    Stress is perfectly normal. It is just a sense of
+                    danger - real or imaginary - that kicks your body's
+                    defenses into high gear, also known as "fight or
+                    flight" or the stress response. Stress has
+                    a positive effect on your body. It helps you stay
+                    energetic, focused, and alert.
+                </p><br>
+                <br>
+
+                <img src="Images/physical.jpg" width="239" height="133" id="physical"> <p id="pphysical">
+                    Physiological symptoms of stress are the response
+                    of the body to stressful situations.
+                </p><br>
+                <br>
+
+                <img src="Images/cognitive.jpg" width="239" height="133" id="mental"><p id="pmental">
+                    Cognitive Symptoms of stress is the way we mentally
+                    process our surroundings.
+                </p><br><br>
+
+
+                <img src="Images/coping.jpg" width="239" height="133" id="coping"> <p id="pcoping">
+                    Stress is easily manageable, a few ways are: the
+                    use of technology, learning to say "no", setting
+                    realistic goals, etc.. Keepinga positive outlook on life is the key.
+                </p> 
+            </section>
+        </div>
+    </body>
+</html>

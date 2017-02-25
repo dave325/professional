@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    $("#physicalResponse").hover(function(){
+    $("#prslide").slideToggle("slow");
+  });
+    $("#physicalResponse").hover(function(){
+    $("#pslabel").fadeToggle(300);
+  });
+    $("#psychologicalResponse").hover(function(){
+    $("#psrslide").slideToggle("slow");
+  });
+  $("#psychologicalResponse").hover(function(){
+    $("#psrlabel").sfadeToggle(300);
+  });
+    $("#Coping").hover(function(){
+    $("#cslide").slideToggle("slow");
+  });
+  $("#Coping").hover(function(){
+    $("#clabel").fadeToggle(300);
+  });
+  $("#behavior").hover(function(){
+    $("#bslide").slideToggle("slow");
+  });
+  $("#behavior").hover(function(){
+    $("#blabel").fadeToggle(300);
+  });
+});
+
