@@ -4,6 +4,7 @@
 <section id="dav-blog-post-<?php the_ID(); ?>" class="home-panel back-top-panel dav-blog-post">
 <article class="blog-container">
 <h2><?php the_title();?></h2>
+<a href="<?php echo get_home_url();?>"> Return to home</a><br />
 <time datetime="<?php the_time('F j, Y') ?>"><?php the_time('F j, Y') ?></time>
 <div class="my-blog-content"><?php the_content();?></div>
 <a href="<?php echo get_home_url();?>"> Return to home</a>

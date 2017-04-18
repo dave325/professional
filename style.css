@@ -289,9 +289,9 @@ section {
 
 #home img {
 	display: block;
-	height: 500px;
+	height: 400px;
 	margin: 30px auto 0px auto;
-	width: 60%;
+	width: 40%;
 }
 
 .back-to-top {
@@ -340,7 +340,7 @@ h4 {
 	font-size: 24px;
 	text-align: center;
 }
-
+/*********** Portfolio Section ***********/
 #portfolio {
 	padding-top: 60px;
 	padding-bottom: 5%;
@@ -353,6 +353,22 @@ h4 {
 	right: 0;
 }
 
+#portfolio #consultSiteWrapper .portfolio-row {
+	width:70%;
+	margin:0px auto;
+}
+
+#portfolio #consultSiteWrapper .portfolio-row img{
+	position:absolute;
+	margin-right:5%;
+}
+#portfolio h2 {
+	color: #FFF !important;
+	font-weight: 700;
+	margin-bottom:3%;
+}
+
+/*************** Services Section ***********************/
 #services {
 	background-color: #e6e6e6;
 	padding-bottom: 2%;
@@ -394,12 +410,6 @@ h4 {
 	font-size: 40px;
 }
 
-#portfolio h2 {
-	color: #FFF;
-	font-weight: 700;
-	margin-bottom:3%;
-}
-
 #services p {
 	margin: 2% auto 0px auto;
 	width: 80%;
@@ -416,6 +426,7 @@ h4 {
 	text-align: center;
 }
 
+/******* Code for blog Post ****/
 #blog{
 	background-color:#e6e6e6;
 	padding-bottom:5%;
@@ -423,7 +434,6 @@ h4 {
 #blog-container {
 	margin-bottom:2%;
 }
-/******* Code for blog Post ****/
 .dav-blog-post{
 	background-color:#e6e6e6;
 	min-height:auto !important;
@@ -447,6 +457,37 @@ h4 {
  .my-blog-content code {
 	width:100%;
 	color:#0000b3;
+}
+.my-blog-content pre {
+  background-color:#eee;
+  overflow:auto;
+  margin:0 0 1em;
+  padding:.5em 1em;
+}
+
+.my-blog-content pre code,
+.my-blog-content pre .line-number {
+  /* Ukuran line-height antara teks di dalam tag <code> dan <span class="line-number"> harus sama! */
+  font:normal normal 12px/14px "Courier New",Courier,Monospace;
+  color:black;
+  display:block;
+}
+
+.my-blog-content pre .line-number {
+  float:left;
+  margin:0 1em 0 -1em;
+  border-right:1px solid;
+  text-align:right;
+}
+
+.my-blog-content pre .line-number span {
+  display:block;
+  padding:0 .5em 0 1em;
+}
+
+.my-blog-content pre .cl {
+  display:block;
+  clear:both;
 }
 /******** Comment Styles ********/
 .comment{
@@ -518,12 +559,9 @@ footer ul li {
 	clear: both;
 }
 
-.parallax-window-1{
-		background-color: #595959;
+.parallax-window-1,.parallax-window-2{
+		background-color:#0000b3;;
 	}
-.parallax-window-2 {
-	background-color:#003366;
-}
 
 /******** DESKTOPS*******/
 @media only screen and (min-width: 930px ) {
